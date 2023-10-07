@@ -1,10 +1,10 @@
 {
   "name": "back_pizzeria",
   "version": "1.0.0",
-  "description": "",
+  "description": "proyecto para una pizzeria",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/index.js --exec babel-node"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +13,14 @@
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "mongoose": "^7.6.0"
+    "mongoose": "^7.6.0",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.22.20",
     "nodemon": "^3.0.1"
   }
 }

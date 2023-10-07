@@ -1,0 +1,3 @@
+contraseña administrador mongo bd
+usuario: Rodrigo
+contraseña: kiGOt6yWz19XsAXm
