@@ -12,7 +12,7 @@ async function AddUser(req, res) {
       apellido,
       nombre,
       email,
-      password,
+      passwordHash,
       calle,
       altura,
       ciudad,
